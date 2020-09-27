@@ -29,15 +29,53 @@ body {
 .header__nav {
     display: flex;
     align-items: center;
+
 }
 
 .header__nav__item {
-    padding: 0 13px;
+    
+    margin-right:13px;
+    position:relative;
+    transition: opacity .4s;
+
+
+}
+.header__nav__item_activ::after{
+position: absolute;
+display: block;
+content: '';
+left: 0;
+width: 100%;
+height: 3px;
+background:#0056ec;
+opacity: 0;
+transition: opacity .5s;
+
 
 }
 
+.header__nav__item:hover:after{
+    position: absolute;
+    display: block;
+content: '';
+left: 0;
+width: 100%;
+height: 3px;
+background:#0056ec;
+opacity: 0;
+transition: opacity .5s;
+}
+
+
+.header__nav__item:hover{
+opacity: 0.5;
+}
+.header__nav__item:hover:after, .header__nav__item_activ::after{
+    opacity: 1;
+}
+
 .header__nav__item:last-child {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 .section {
@@ -58,6 +96,9 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&display=swap');
+
+
+
 
 
 .header__nav__item
