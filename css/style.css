@@ -6,13 +6,14 @@ body {
 
 .wrapper {
     margin: auto;
-    width: 74%;
+    width: 72%;
 
 }
 
 .header {
+    border: dashed 1px red;
     padding-top: 40px;
-    margin-bottom: 136px;
+    margin-bottom: 115px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,9 +32,25 @@ body {
 
 }
 
+.blog{
+    margin-right: 28px;
+}
+
+.about{
+    margin-right: 27px;
+}
+
+.services{
+    margin-right: 25px;
+}
+.start{
+    margin-right: 25px;
+}
+
+
 .header__nav__item {
 
-    margin-right: 29px;
+    
     position: relative;
     transition: opacity .4s;
 
@@ -68,7 +85,53 @@ body {
 
 
 .header__nav__item:hover {
-    opacity: 0.5;
+  -webkit-animation: swing 0.6s ease;
+  animation: swing 0.6s ease;
+   -webkit-animation-iteration-count: 1;
+   animation-iteration-count: 1;
+
+
+}
+@-webkit-keyframes swing {
+  15% {
+    transform: translateX(9px);
+  }
+  30% {
+    transform: translateX(-9px);
+  }
+  40% {
+    transform: translateX(6px);
+  }
+  50% {
+    transform: translateX(-6px);
+  }
+  65% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes swing {
+  15% {
+    transform: translateX(9px);
+  }
+  30% {
+    transform: translateX(-9px);
+  }
+  40% {
+    transform: translateX(6px);
+  }
+  50% {
+    transform: translateX(-6px);
+  }
+  65% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .header__nav__item:hover:after,
@@ -79,17 +142,15 @@ body {
 .header__nav__item:last-child {
     margin-right: 0;
 }
-h1{
 
-   
-}
 .main {
 
  border: dashed 1px red;
-    padding: 0 63% 100px 0;
+    padding: 18px 63% 100px 0;
     background: url("../img/frame.svg");
     background-repeat: no-repeat;
     background-position: top right;
+    
 
 }
 
@@ -113,12 +174,13 @@ h1{
     /*font-family: Roboto;
     font-style: normal;
     font-size: 12px;
-    color: #000;*/
+    */
     font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
+color: #000;
 }
 
 .main__title {
@@ -161,7 +223,9 @@ height:43px;
 }
 
 .main__button:hover {
-    opacity: .8;
+    background: rgba(0,0,0,0);
+    color: #0056EC;
+    box-shadow: inset 0 0 0 3px #0056EC;
 }
 
 
