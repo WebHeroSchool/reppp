@@ -177,13 +177,14 @@ body {
 }
 
 .main {
+width: 514px;
+height: 439px;
 
-
-    padding: 18px 63% 100px 0;
+    padding: 18px 63% 0 0;
     background: url("../img/frame1.svg");
     background-repeat: no-repeat;
     background-position: top right;
-   ;
+   
 
 }
 
@@ -226,7 +227,7 @@ body {
     height: 43px;
 
     margin: 0 0 52px 0;
-    /*    border: dashed 1px red;*/
+   
 }
 
 .main__button {
@@ -239,12 +240,14 @@ body {
     background: #0056EC;
     border-radius: 4px;
     transition: opacity .5s;
+
 }
 
 .main__button:hover {
     background: rgba(0, 0, 0, 0);
     color: #0056EC;
     box-shadow: inset 0 0 0 3px #0056EC;
+
 }
 
 
@@ -253,7 +256,12 @@ body {
 }
 
 
+.footer{
 
+  position:absolute;
+  top: 90%;
+  left: 50%;
+}
 
 
 @media (max-width: 787px) {
@@ -513,8 +521,7 @@ background: url("../img/frame3.svg");
 background-repeat: no-repeat;
 background-position: top right;
 
-width:auto ;
-height: 657px;
+
 }
 .main__title {
 
