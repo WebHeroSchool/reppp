@@ -15,22 +15,15 @@ body {
     width: 80%;
 
 }
-
-
-
-
 .header {
 
     width: 1523px;
-
-    padding-top: 30px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10%;
+    padding-top: 30px;
 }
-
 .header__logo {
     margin-left: 7px;
     width: 190px;
@@ -50,24 +43,14 @@ body {
 #nav li a {
 
     text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-
+    font: 500 18px/21px Roboto;
     color: #000;
 }
 
-.blog {
+.blog,.about {
     margin-right: 27px;
 
 }
-
-.about {
-    margin-right: 27px;
-}
-
 .services {
     margin-right: 25px;
 }
@@ -83,7 +66,6 @@ body {
 .header__nav__item {
 
     list-style: none;
-
     position: relative;
     transition: opacity .4s;
 
@@ -204,68 +186,54 @@ body {
 
 .main__title {
 
-
+    display: inline-block;
     width: 567px;
     height: 255px;
-
+    padding: 61px 0 0 0;
+    margin: 0 0 20px 5px;
 }
 
 .main__title {
-    font-family: PT Serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 66px;
-    line-height: 87px;
-    display: flex;
+    
+    font: bold 66px/87px PT Serif;
     align-items: center;
-
-    display: inline-block;
-    padding: 61px 0 0 0;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    margin-left: 5px;
+   
+    
 }
 
 .main__subtitle {
-
     width: 455px;
     height: 52px;
-    margin-left: 4px;
-    margin-bottom: 60px;
+    margin:0 0 60px 4px ;
 }
 
 .main__subtitle {
+font: 500 22px/25px Roboto;;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 25px;
+    
 }
 
 .main__button {
     width: 250px;
     height: 29px;
-    margin-left: 8px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    padding: 14px 30px 14px 30px;
+    text-decoration: none;
     color: #FFFFFF;
     background: #0056EC;
     border-radius: 4px;
     transition: opacity .5s;
-
+    font: normal, 500, 18px, 21px, Roboto;
+   
+    
+    
+    
+padding: 14px 30px 14px 30px;
+margin-left: 8px;
 }
 
 .main__button:hover {
-    background: rgba(0, 0, 0, 0);
-    color: #0056EC;
-    box-shadow: inset 0 0 0 3px #0056EC;
-
+  
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
 }
 
 
@@ -297,9 +265,7 @@ body {
     .header {
 
         width: 936px;
-
         padding-top: 30px;
-
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -325,11 +291,8 @@ body {
     #nav li a {
 
         text-decoration: none;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
+        font: 500 14px/16px Roboto; 
+                
     }
 
 
@@ -337,8 +300,7 @@ body {
 
         width: 82%;
         height: 500px;
-        padding: 0 0 0 0;
-        padding-right: 20%;
+        padding: 0 20% 0 0;
         background-size: 55%;
 
     }
@@ -347,40 +309,26 @@ body {
 
     .main__title {
 
-        font-family: PT Serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 50px;
-        line-height: 66px;
+        font: bold 50px/66px PT Serif;
         padding: 15px 15px 0 4px;
-        margin: 0;
+        height: 195px;
         display: inline-block;
         align-items: center;
-        color: #000000;
-
-        height: 195px;
         margin-bottom: 40px;
     }
 
     .main__subtitle {
 
 
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 21px;
+        font: 5;
         width: 367px;
         height: 43px;
-
         margin: 0 0 52px 5px;
 
     }
 
     .main__button {
-        font-family: PT Serif;
-        font-style: normal;
-        font-size: 14px;
+        font: 500 14px/18px PT Serif;
         text-decoration: none;
         padding: 14px 16px;
         color: #FFFFFF;
@@ -488,11 +436,7 @@ body {
         padding-left: 103px;
     }
 
-
-
-
-
-    .start {
+    .start,.blog {
         padding-left: 45px;
     }
 
@@ -507,12 +451,7 @@ body {
         padding-left: 33px;
     }
 
-
-    .blog {
-        padding-left: 45px;
-    }
-
-    .contactus {
+     .contactus {
         padding-top: 4px;
 
     }
@@ -532,16 +471,9 @@ body {
         display: inline-block;
         font-size: 20px;
         padding: 23px 0 0 10px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 35px;
-    }
-
-    .header__nav__item {}
-
-    #contain {
+        font: 500 30px/35px Roboto;
+   }
+       #contain {
         display: inline-block;
         cursor: pointer;
         position: absolute;
@@ -593,7 +525,7 @@ body {
 
 
     .main {
-        border: dashed 1px red;
+        
         padding: 63% 0px 0 0;
         background-size: 94%;
         background-position: top center;
@@ -604,20 +536,13 @@ body {
 
     .main__title {
 
-        font-family: PT Serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 40px;
+        font: bold 30px/40px PT Serif;
         display: inline-block;
         align-items: center;
         text-align: center;
-        color: #000000;
         width: 267px;
         height: 96px;
-        margin-top: 10px;
-        margin-left: 14px;
-
+        margin: 10px 0 0 14px;
         z-index: 3;
     }
 
@@ -628,29 +553,17 @@ body {
 
     .main__subtitle {
 
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
+        font:500 16px/19px Roboto;
         text-align: center;
-        color: #000000;
         width: 250px;
         height: 50px;
-        margin-top: 15px;
-        margin-left: 27px;
-        margin-bottom: 46px;
-
+        margin: 15px 0 46px 27px;
 
     }
 
     .main__button {
         margin-left: 46px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
+        font: 500 14px/16px Roboto;
         color: #FFFFFF;
         background: #0056EC;
         border-radius: 4px;
