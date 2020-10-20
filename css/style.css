@@ -15,6 +15,7 @@ body {
     width: 80%;
 
 }
+
 .header {
 
     width: 1523px;
@@ -24,6 +25,7 @@ body {
     margin-bottom: 10%;
     padding-top: 30px;
 }
+
 .header__logo {
     margin-left: 7px;
     width: 190px;
@@ -47,10 +49,12 @@ body {
     color: #000;
 }
 
-.blog,.about {
+.blog,
+.about {
     margin-right: 27px;
 
 }
+
 .services {
     margin-right: 25px;
 }
@@ -179,10 +183,7 @@ body {
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: top right;
-
-
 }
-
 
 .main__title {
 
@@ -194,24 +195,21 @@ body {
 }
 
 .main__title {
-    
-    font: bold 66px/87px PT Serif;
+    font-size: 66px;
+    line-height: 87px;
     align-items: center;
-   
-    
 }
 
 .main__subtitle {
     width: 455px;
     height: 52px;
-    margin:0 0 60px 4px ;
+    margin: 0 0 60px 4px;
 }
 
 .main__subtitle {
-font: 500 22px/25px Roboto;;
-
-    
-}
+    font-size: 22px;
+   line-height: 25px;
+    }
 
 .main__button {
     width: 250px;
@@ -221,19 +219,14 @@ font: 500 22px/25px Roboto;;
     background: #0056EC;
     border-radius: 4px;
     transition: opacity .5s;
-    font: normal, 500, 18px, 21px, Roboto;
-   
-    
-    
-    
-padding: 14px 30px 14px 30px;
-margin-left: 8px;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 14px 30px 14px 30px;
+    margin-left: 8px;
 }
 
 .main__button:hover {
-  
-   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -243,7 +236,6 @@ margin-left: 8px;
 
 
 .footer {
-
     position: absolute;
     bottom: 37px;
     left: 49%
@@ -253,17 +245,14 @@ margin-left: 8px;
 
 @media (max-width: 1366px) {
     .wrapper {
-
         margin: auto;
         width: 68%;
-
     }
 
 
 
 
     .header {
-
         width: 936px;
         padding-top: 30px;
         display: flex;
@@ -280,19 +269,16 @@ margin-left: 8px;
     }
 
     .header__nav {
-
         display: flex;
         padding-top: 3px;
         align-items: center;
-
-
     }
 
     #nav li a {
 
         text-decoration: none;
-        font: 500 14px/16px Roboto; 
-                
+        font-size: 14px;
+        line-height: 16px;
     }
 
 
@@ -302,14 +288,13 @@ margin-left: 8px;
         height: 500px;
         padding: 0 20% 0 0;
         background-size: 55%;
-
     }
 
 
 
     .main__title {
-
-        font: bold 50px/66px PT Serif;
+        font-size: 50px;
+        line-height: 66px;
         padding: 15px 15px 0 4px;
         height: 195px;
         display: inline-block;
@@ -318,44 +303,33 @@ margin-left: 8px;
     }
 
     .main__subtitle {
-
-
-        font: 5;
         width: 367px;
         height: 43px;
         margin: 0 0 52px 5px;
-
     }
 
     .main__button {
-        font: 500 14px/18px PT Serif;
+        font-size: 14px;
+       line-height: 18px;
         text-decoration: none;
         padding: 14px 16px;
         color: #FFFFFF;
         background: #0056EC;
         border-radius: 4px;
         transition: opacity .5s;
-
     }
-
 }
 
 @media (max-width: 1024px) {
     .wrapper {
-
         margin: auto;
         width: 92%;
         padding-left: 1px;
-
     }
 
     .header {
-
         width: 100%;
-
     }
-
-
 }
 
 @media (max-width: 375px) {
@@ -369,7 +343,6 @@ margin-left: 8px;
     }
 
     .header {
-
         margin-bottom: 20px;
     }
 
@@ -436,7 +409,8 @@ margin-left: 8px;
         padding-left: 103px;
     }
 
-    .start,.blog {
+    .start,
+    .blog {
         padding-left: 45px;
     }
 
@@ -445,13 +419,12 @@ margin-left: 8px;
         padding-left: 20px;
     }
 
-
     .about {
         padding-top: 2px;
         padding-left: 33px;
     }
 
-     .contactus {
+    .contactus {
         padding-top: 4px;
 
     }
@@ -471,9 +444,11 @@ margin-left: 8px;
         display: inline-block;
         font-size: 20px;
         padding: 23px 0 0 10px;
-        font: 500 30px/35px Roboto;
-   }
-       #contain {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #contain {
         display: inline-block;
         cursor: pointer;
         position: absolute;
@@ -493,7 +468,6 @@ margin-left: 8px;
     }
 
     .change .bar1 {
-
         -webkit-transform: rotate(-45deg) translate(-6px, 6px);
         transform: rotate(-45deg) translate(-6px, 6px);
     }
@@ -503,7 +477,6 @@ margin-left: 8px;
     }
 
     .change .bar3 {
-
         -webkit-transform: rotate(45deg) translate(-4px, -4px);
         transform: rotate(45deg) translate(-4px, -4px);
     }
@@ -520,12 +493,7 @@ margin-left: 8px;
         background-color: red;
     }
 
-
-
-
-
     .main {
-        
         padding: 63% 0px 0 0;
         background-size: 94%;
         background-position: top center;
@@ -535,8 +503,8 @@ margin-left: 8px;
     }
 
     .main__title {
-
-        font: bold 30px/40px PT Serif;
+        font-size: 30px;
+        line-height: 40px;
         display: inline-block;
         align-items: center;
         text-align: center;
@@ -552,8 +520,8 @@ margin-left: 8px;
 
 
     .main__subtitle {
-
-        font:500 16px/19px Roboto;
+        font-size: 16px;
+        line-height: 19px;
         text-align: center;
         width: 250px;
         height: 50px;
@@ -563,7 +531,8 @@ margin-left: 8px;
 
     .main__button {
         margin-left: 46px;
-        font: 500 14px/16px Roboto;
+        font-size: 14px;
+        line-height: 16px;
         color: #FFFFFF;
         background: #0056EC;
         border-radius: 4px;
