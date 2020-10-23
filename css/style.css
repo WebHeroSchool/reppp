@@ -180,7 +180,7 @@ body {
 
     padding: 13px 20% 0 0px;
     background: url("../img/frame.svg");
-    background-size: 50%;
+  
     background-repeat: no-repeat;
     background-position: top right;
 }
@@ -189,7 +189,7 @@ body {
 
     display: inline-block;
     width: 567px;
-    height: 255px;
+    
     padding: 61px 0 0 0;
     margin: 0 0 20px 5px;
 }
@@ -224,11 +224,8 @@ body {
     background: #0056EC;
     border-radius: 4px;
     transition: opacity .5s;
-     font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
+     font: 500 18px/21px Roboto;
+    
     padding:17px 33px 17px 20px;
     margin-left: 1px;
 }
@@ -244,24 +241,24 @@ body {
 
 
 .footer {
-    position: absolute;
-    bottom: 37px;
-    left: 49%
-}
+  
+  text-align: center;}
 
 
 
 @media (max-width: 1366px) {
     .wrapper {
+       
         margin: auto;
-        width: 68%;
+        width: 69%;
     }
 
 
 
 
     .header {
-        width: 936px;
+        width: 99%;
+     
         padding-top: 30px;
         display: flex;
         justify-content: space-between;
@@ -276,11 +273,7 @@ body {
         background: url("../img/logo.svg");
     }
 
-    .header__nav {
-        display: flex;
-        padding-top: 3px;
-        align-items: center;
-    }
+
 
     #nav li a {
 
@@ -293,7 +286,7 @@ body {
     .main {
 
         width: 82%;
-        height: 500px;
+        
         padding: 0 20% 0 0;
         background-size: 55%;
     }
@@ -301,34 +294,33 @@ body {
 
 
     .main__title {
-        font-family: PT Serif;
+        
         font-size: 50px;
         line-height: 66px;
         padding: 15px 17px 0 2px;
         height: 195px;
         display: inline-block;
         align-items: center;
-        margin-bottom: 45px;
+        margin-bottom: 40px;
 
     }
 
     .main__subtitle {
 
-       font-family: Roboto;
       
-        font-weight: 500;
+        
         font-size: 18px;
         line-height: 21px;
         width: 367px;
-        height: 43px;
+        
 
-        margin: 0 0 50px 5px;
+        margin: 0 0 43px 5px;
 
     }
 
     .main__button {
-        font-family: PT Serif;
-        font-style: normal;
+        
+        
         font-size: 13px;
         line-height: 12px;
         text-decoration: none;
@@ -344,7 +336,7 @@ body {
 @media (max-width: 1024px) {
     .wrapper {
         margin: auto;
-        width: 92%;
+        width: 94%;
         padding-left: 1px;
     }
 
@@ -371,7 +363,7 @@ body {
     .header__logo {
         position: absolute;
         width: 40px;
-        height: 35px;
+        
         background: url("../img/logocyrcle.svg");
         background-repeat: no-repeat;
         top: 24px;
@@ -532,7 +524,7 @@ body {
         text-align: center;
         width: 267px;
         height: 96px;
-        margin: 10px 0 0 14px;
+        margin: 8px 0 0 14px;
         z-index: 3;
     }
 
@@ -547,16 +539,13 @@ body {
         text-align: center;
         width: 250px;
         height: 50px;
-        margin: 37px 0 44px 25px;
+        margin: 34px 0 44px 25px;
 
     }
 
     .main__button {
         margin-left: 42px;
         padding: 14px 25px 13px 16px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         color: #FFFFFF;
