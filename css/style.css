@@ -183,25 +183,16 @@ body {
 }
 
 .main__title {
-    font-family: PT Serif;
-    font-size: 66px;
-    line-height: 87px;
-    align-items: center;
+     font: 500 66px/87px PT Serif ;
+       align-items: center;
 }
 
 .main__subtitle {
     padding: 0  65% 0 0;
     margin-left: 4px;
     margin-bottom: 58px;
+     font:500  22px/25px Roboto;
 }
-
-.main__subtitle {
-     font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 25px;
-    }
 
 .main__button {
     text-decoration: none;
@@ -209,10 +200,7 @@ body {
     background: #0056EC;
     border-radius: 4px;
     transition: opacity .5s;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
+    font:500 18px/21px Roboto;
     padding:17px 33px 17px 20px;
     margin-left: 1px;
 }
