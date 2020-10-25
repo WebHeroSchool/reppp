@@ -171,7 +171,7 @@ body {
 
 .main {
  
-    padding: 13px 20% 18% 0px;
+    padding: 13px 20% 16% 0px;
     background: url("../img/frame.svg");
     background-repeat: no-repeat;
     background-position: top right;
@@ -372,48 +372,23 @@ body {
         height: 0;
         max-height: 0px;
         list-style-type: none;
-        padding-left: 0;
+       
         -webkit-transition: linear 1s;
         transition: linear 1s;
     }
 
     #nav.open {
-        width: 787px;
-        height: 667px;
-        left: 0;
-        top: 0;
-        max-height: 1000px;
-        -webkit-transition: linear 1s;
-        transition: linear 1s;
-
         position: absolute;
-        left: 0;
-        top: 0;
-        align-items: center;
-        padding-top: 147px;
-        padding-left: 103px;
+      top: 0;
+        width: 375px;
+    -webkit-transition: linear 1s;
+        transition: linear 1s;
+        padding: 168px 0 500px 0px;
+       
+        
     }
 
-    .start,
-    .blog {
-        padding-left: 45px;
-    }
-
-
-    .services {
-        padding-left: 20px;
-    }
-
-    .about {
-        padding-top: 2px;
-        padding-left: 33px;
-    }
-
-    .contactus {
-        padding-top: 4px;
-
-    }
-
+    
     #nav li {
 
         float: none;
@@ -426,9 +401,9 @@ body {
     }
 
     #nav li a {
-        display: inline-block;
-        font-size: 20px;
-        padding: 23px 0 0 10px;
+        display: block;
+     text-align: center;
+     padding-bottom: 26px;
         font-size: 30px;
         line-height: 35px;
     }
