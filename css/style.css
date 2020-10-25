@@ -170,7 +170,8 @@ body {
 }
 
 .main {
-    padding: 13px 20% 10% 0px;
+ 
+    padding: 13px 20% 18% 0px;
     background: url("../img/frame.svg");
     background-repeat: no-repeat;
     background-position: top right;
@@ -203,6 +204,8 @@ body {
     font:500 18px/21px Roboto;
     padding:17px 33px 17px 20px;
     margin-left: 1px;
+   
+    
 }
 
 .main__button:hover {
@@ -216,7 +219,10 @@ body {
 
 
 .footer {
-    text-align: center;}
+  
+    text-align: center;
+
+}
 
 
 
@@ -257,7 +263,7 @@ body {
     .main {
 
        
-        padding: 0 20% 10% 0;
+        padding: 0 20% 17% 0;
         background-size: 55%;
     }
 
@@ -271,7 +277,7 @@ body {
        
         display: inline-block;
         align-items: center;
-        margin-bottom: 40px;
+        margin-bottom: 38px;
 
     }
 
@@ -279,7 +285,7 @@ body {
         font-size: 18px;
         line-height: 21px;
         width: 367px;
-        margin: 0 0 54px 5px;
+        margin: 0 0 50px 5px;
 
     }
 
